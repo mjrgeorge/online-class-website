@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Courses from './components/courses/Courses';
-import Logo from './components/logo/Logo';
+import Cover from './components/cover/Cover';
 
 function App() {
   
   return (
     <div className = "fluid-container bg-light">
-      <Logo></Logo>
+      <Cover></Cover>
       <Courses></Courses>
     </div>
   )

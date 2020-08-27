@@ -6,8 +6,8 @@ const Cart = (props) => {
     return (
         <div className="shadow rounded-lg mb-5 p-2 bg-info">
             <h1 className = 'text-warning'><u>Summary</u></h1>
-            <h3>Ordered Courses : {cart.length}</h3>
-            <h2 className = 'text-danger'>Total Price : $ {totalPrice}</h2>
+            <h3>Purchase Course : {cart.length}</h3>
+            <h2 className = 'text-danger'>Total Amount : $ {totalPrice}</h2>
         </div>
     );
 };
