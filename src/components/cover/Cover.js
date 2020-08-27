@@ -4,7 +4,7 @@ import './Cover.css';
 
 const Cover = () => {
     return (
-        <div className="header_container">
+        <div className="header_container mb-4">
                 <img src={cover} alt=""/>
         </div>
     );
